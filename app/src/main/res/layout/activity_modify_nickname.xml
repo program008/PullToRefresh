@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<View style="@style/public_horizontal_bold_line"/>
+    <View style="@style/public_gray_horizontal_line"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/my_modify_nickname_editText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="12sp"
+            android:hint="修改昵称"
+            android:background="@color/white"
+            android:paddingLeft="10dp"
+            android:layout_centerVertical="true"
+            android:singleLine="true"
+            />
+        <ImageView
+            android:id="@+id/my_modify_nickname_editdelect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/editdelete"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="20dp"
+            android:visibility="invisible"
+            />
+    </RelativeLayout>
+
+    <View style="@style/public_gray_horizontal_line"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/aliceblue"
+        />
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/ask_content_fl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"/>
+
+    <RelativeLayout
+        android:id="@+id/ask_btn_ll"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:background="@color/white"
+        >
+
+        <Button
+            android:id="@+id/ask_askbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="提问"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@drawable/selector_green_btn"
+            />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/gray"
+        android:layout_above="@id/ask_btn_ll"
+        />
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:scrollbars="none">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioGroup
+                    android:id="@+id/ask_subscribeto_guide_rg"
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <RadioButton
+                        android:id="@+id/ask_subscribeto_rb0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:button="@null"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="android"
+                        android:textColor="@color/color_headline_head_radiogroup_text" />
+                </RadioGroup>
+
+            </RelativeLayout>
+        </HorizontalScrollView>
+
+        <ImageView
+            android:id="@+id/ask_subscribeto_add_tag_iv"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="12dp"
+            android:src="@drawable/addskill"
+            android:clickable="true"/>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="40dp"
+            android:layout_toLeftOf="@id/ask_subscribeto_add_tag_iv"
+            android:background="@color/darkgrey" />
+    </RelativeLayout>
+
+    <View style="@style/public_gray_horizontal_line" />
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/ask_subscribeto_refresh_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ptr:ptrAnimationStyle="rotate"
+        ptr:ptrDrawable="@drawable/default_ptr_rotate"
+        ptr:ptrHeaderBackground="#fff" />
+</LinearLayout>

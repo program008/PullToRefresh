@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<TextView
+    android:id="@+id/my_collect_content_number_tv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="16/01"
+    android:paddingLeft="10dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:background="@color/silver"
+    />
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        ptr:ptrDrawable = "@drawable/default_ptr_rotate"
+        ptr:ptrAnimationStyle="rotate"
+        ptr:ptrHeaderBackground="#fff"
+        ptr:ptrHeaderTextColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/my_collect_list" />
+</LinearLayout>

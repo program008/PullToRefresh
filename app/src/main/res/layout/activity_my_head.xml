@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <View style="@style/public_horizontal_bold_line" />
+
+        <View style="@style/public_gray_horizontal_line" />
+
+        <RelativeLayout
+            android:id="@+id/my_modify_avatar_rl"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="修改头像"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/my_head_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:src="@drawable/list_arrow_small" />
+
+            <ImageView
+                android:id="@+id/my_modifydatum_avatar"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@id/my_head_arrow"
+                android:src="@drawable/default_avatar" />
+        </RelativeLayout>
+
+        <View style="@style/public_gray_horizontal_line" />
+
+        <RelativeLayout
+            android:id="@+id/my_modify_nickname_rl"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="修改昵称"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/my_head_arrow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:src="@drawable/list_arrow_small" />
+
+            <TextView
+                android:id="@+id/my_modify_nickname_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@id/my_head_arrow2"
+                android:text="program008"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <View style="@style/public_gray_horizontal_line" />
+
+        <View style="@style/public_horizontal_bold_line" />
+
+        <View style="@style/public_gray_horizontal_line" />
+
+        <RelativeLayout
+            android:id="@+id/my_modify_skill_rl"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="专业技能"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/my_head_arrow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:src="@drawable/list_arrow_small" />
+
+            <TextView
+                android:id="@+id/my_modify_skil_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@id/my_head_arrow3"
+                android:text="android,java"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <View style="@style/public_gray_horizontal_line" />
+
+        <View style="@style/public_horizontal_bold_line" />
+
+        <View style="@style/public_gray_horizontal_line" />
+
+        <RelativeLayout
+            android:id="@+id/my_modify_name_rl"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="姓名"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/my_head_arrow4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:src="@drawable/list_arrow_small" />
+
+            <TextView
+                android:id="@+id/my_modify_name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@id/my_head_arrow4"
+                android:text="program009"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <View style="@style/public_gray_horizontal_line" />
+
+        <RelativeLayout
+            android:id="@+id/my_modify_job_rl"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="职务"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/my_head_arrow5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:src="@drawable/list_arrow_small" />
+
+            <TextView
+                android:id="@+id/my_modify_job_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@id/my_head_arrow5"
+                android:text="android运用开发工程师"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <View style="@style/public_gray_horizontal_line" />
+
+        <RelativeLayout
+            android:id="@+id/my_modify_trade_rl"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="行业"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/my_head_arrow6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:src="@drawable/list_arrow_small" />
+
+            <TextView
+                android:id="@+id/my_modify_trade_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@id/my_head_arrow6"
+                android:text="计算机软件"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <View style="@style/public_gray_horizontal_line" />
+
+        <RelativeLayout style="@style/public_horizontal_xbold_line">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="工作经历"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <View style="@style/public_gray_horizontal_line" />
+
+        <RelativeLayout
+            android:id="@+id/my_add_joblive_rl"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="15dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/my_add_joblive_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:text="工作经历的内容"
+                android:textColor="@color/blue"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <View style="@style/public_gray_horizontal_line" />
+
+        <RelativeLayout
+            android:id="@+id/my_modify_joblive_rl"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:text="添加工作经历"
+                android:textColor="@color/blue"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <View style="@style/public_gray_horizontal_line" />
+
+        <RelativeLayout style="@style/public_horizontal_xbold_line">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="教育经历"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <View style="@style/public_gray_horizontal_line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="15dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/my_add_edulive_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:text="添加教育经历的内容"
+                android:textColor="@color/blue"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <View style="@style/public_gray_horizontal_line" />
+
+        <RelativeLayout
+            android:id="@+id/my_modify_edulive_rl"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:text="添加教育经历"
+                android:textColor="@color/blue"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <View style="@style/public_gray_horizontal_line" />
+
+        <View style="@style/public_horizontal_bold_line" />
+
+        <View style="@style/public_gray_horizontal_line" />
+
+        <RelativeLayout
+            android:id="@+id/my_modify_hideset_rl"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="隐私设置"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/my_head_arrow7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:src="@drawable/list_arrow_small" />
+        </RelativeLayout>
+
+        <View style="@style/public_gray_horizontal_line" />
+
+        <View style="@style/public_horizontal_bold_line" />
+
+        <View style="@style/public_gray_horizontal_line" />
+    </LinearLayout>
+</ScrollView>

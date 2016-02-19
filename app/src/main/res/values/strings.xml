@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CSDN</string>
+    <string name="open">打开</string>
+    <string name="close">关闭</string>
+    <string name="headline_item_from">来自: %1s</string>
+    <string name="headline_item_sharetime">分享于 %1s</string>
+
+    <string name="myblog_listview_item_title_text">androind中信息列表的刷新和加載</string>
+
+    <string name="ask_all_item_tag_tv">标签：%1s</string>
+    <string name="ask_reward_item_tag_tv">标签：%1s</string>
+    <string name="ask_all_item_tw_time_tv">提问于 %1s</string>
+    <string name="ask_reward_item_tw_time_tv">提问于 %1s</string>
+    <string name="ask_all_item_title_tv">listview创建的MySQL，怎么通过navigation来连接</string>
+    <string name="ask_reward_item_title_tv">listview创建的MySQL，怎么通过navigation来连接</string>
+    <string name="ask_all_item_reward_tv">悬赏 %1d</string>
+    <string name="ask_reward_item_reward_tv">悬赏 %1d</string>
+    <string name="ask_all_item_ask2">回答 %1d</string>
+    <string name="ask_reward_item_ask2">回答 %1d</string>
+    <string name="ask_all_item_ask1">回答 %1d</string>
+    <string name="ask_reward_item_ask1">回答 %1d</string>
+</resources>

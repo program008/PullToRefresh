@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="@color/whitesmoke"
+            android:gravity="center_vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/article_content_user_avatar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/default_avatar" />
+
+            <TextView
+                android:id="@+id/article_content_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/article_content_user_avatar"
+                android:text="program008"
+                android:textColor="@color/cornflowerblue"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/article_content_create_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/article_content_username"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/article_content_user_avatar"
+                android:text="发表于 1/25 12:40"
+                android:textSize="10sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/article_content_title_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="android中信息列表的下拉刷新和上拉加载"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:padding="15dp"
+            />
+        <TextView
+            android:id="@+id/article_content_view_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="阅读量  9"
+            android:gravity="center_horizontal"
+            android:textSize="10sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            />
+        <TextView
+            android:id="@+id/article_content_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="10sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="全部评论"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <View
+                style="@style/public_gray_horizontal_line"
+                android:layout_width="100dp"
+                android:layout_height="1.5dp"
+                android:background="@color/red" />
+
+            <View style="@style/public_gray_horizontal_line" />
+        </LinearLayout>
+        <!--评论-->
+        <LinearLayout
+            android:id="@+id/article_content_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/article_content_comment_empty_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/empty_comment" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

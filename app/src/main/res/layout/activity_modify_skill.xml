@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/aliceblue">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="已选技能"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <View style="@style/public_gray_horizontal_line" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1">
+
+            <ImageView
+                style="@style/modify_skill_btn"
+                android:background="@drawable/shape_my_modify_skill_btn"
+                android:src="@drawable/addskill" />
+        </LinearLayout>
+    </GridLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/aliceblue">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="热门技能"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <View style="@style/public_gray_horizontal_line" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1">
+
+            <Button
+                android:id="@+id/hot_job_oc"
+                style="@style/modify_skill_btn"
+                android:background="@drawable/shape_my_modify_skill_btn"
+                android:text="Objective -C"
+                android:textAllCaps="false"
+                android:textColor="@color/gray"
+                android:textSize="10dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_columnWeight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <Button
+                android:id="@+id/hot_job_java"
+                style="@style/modify_skill_btn"
+                android:background="@drawable/shape_my_modify_skill_btn"
+                android:text="Java"
+                android:textSize="10dp"
+                android:textColor="@color/gray"
+                android:textAllCaps="false"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_columnWeight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <Button
+                android:id="@+id/hot_job_cshape"
+                style="@style/modify_skill_btn"
+                android:background="@drawable/shape_my_modify_skill_btn"
+                android:text="C#"
+                android:textSize="10dp"
+                android:textColor="@color/gray"
+                android:textAllCaps="false"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_columnWeight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <Button
+                android:id="@+id/hot_job_cadd"
+                style="@style/modify_skill_btn"
+                android:background="@drawable/shape_my_modify_skill_btn"
+                android:text="C++"
+                android:textSize="10dp"
+                android:textColor="@color/gray"
+                android:textAllCaps="false"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_columnWeight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <Button
+                android:id="@+id/hot_job_c"
+                style="@style/modify_skill_btn"
+                android:background="@drawable/shape_my_modify_skill_btn"
+                android:text="C语言"
+                android:textSize="10dp"
+                android:textColor="@color/gray"
+                android:textAllCaps="false"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_columnWeight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <Button
+                android:id="@+id/hot_job_javascript"
+                style="@style/modify_skill_btn"
+                android:background="@drawable/shape_my_modify_skill_btn"
+                android:text="JavaScript"
+                android:textSize="10dp"
+                android:textColor="@color/gray"
+                android:textAllCaps="false"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_columnWeight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <Button
+                android:id="@+id/hot_job_php"
+                style="@style/modify_skill_btn"
+                android:background="@drawable/shape_my_modify_skill_btn"
+                android:text="PHP"
+                android:textSize="10dp"
+                android:textColor="@color/gray"
+                android:textAllCaps="false"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_columnWeight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <Button
+                android:id="@+id/hot_job_linux"
+                style="@style/modify_skill_btn"
+                android:background="@drawable/shape_my_modify_skill_btn"
+                android:text="linux"
+                android:textSize="10dp"
+                android:textColor="@color/gray"
+                android:textAllCaps="false"
+                />
+        </LinearLayout>
+    </GridLayout>
+</LinearLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View style="@style/public_horizontal_bold_line" />
+
+    <View style="@style/public_gray_horizontal_line" />
+
+    <RelativeLayout
+        android:id="@+id/modify_realname_rl"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="真实姓名"
+            android:textSize="14sp" />
+            <ImageView
+                android:id="@+id/arrow_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/list_arrow_small"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                />
+        <TextView
+            android:id="@+id/modify_name_visual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="仅自己可见"
+            android:textSize="14sp"
+            android:layout_toLeftOf="@id/arrow_name"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+    <View style="@style/public_gray_horizontal_line" />
+
+    <RelativeLayout
+        android:id="@+id/modify_edubg_rl"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="教育背景"
+            android:textSize="14sp" />
+        <ImageView
+            android:id="@+id/arrow_edubg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/list_arrow_small"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:id="@+id/modify_edubg_visual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="仅自己可见"
+            android:textSize="14sp"
+            android:layout_toLeftOf="@id/arrow_edubg"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+    <View style="@style/public_gray_horizontal_line" />
+    <RelativeLayout
+        android:id="@+id/modify_jobbg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="职业背景"
+            android:textSize="14sp" />
+        <ImageView
+
+            android:id="@+id/arrow_jobbg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/list_arrow_small"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:id="@+id/modify_job_visual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="仅自己可见"
+            android:textSize="14sp"
+            android:layout_toLeftOf="@id/arrow_jobbg"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+    <View style="@style/public_gray_horizontal_line" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/aliceblue"
+        android:orientation="vertical"></LinearLayout>
+</LinearLayout>

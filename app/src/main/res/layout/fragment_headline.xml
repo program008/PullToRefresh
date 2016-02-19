@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/darkgray"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/gainsboro">
+
+            <RadioGroup
+                android:id="@+id/home_headline_guide_rg"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:layout_alignParentTop="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+
+                >
+
+                <RadioButton
+                    android:id="@+id/home_headline_rb0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:button="@null"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="@color/color_headline_head_radiogroup_text"
+                    android:text="最新" />
+
+                <RadioButton
+                    android:id="@+id/home_headline_rb1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:button="@null"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="@color/color_headline_head_radiogroup_text"
+                    android:text="前端" />
+
+                <RadioButton
+                    android:id="@+id/home_headline_rb2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:button="@null"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="@color/color_headline_head_radiogroup_text"
+                    android:text="移动开发" />
+
+                <RadioButton
+                    android:id="@+id/home_headline_rb3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:button="@null"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="@color/color_headline_head_radiogroup_text"
+                    android:text="语言" />
+
+                <RadioButton
+                    android:id="@+id/home_headline_rb4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:button="@null"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="@color/color_headline_head_radiogroup_text"
+                    android:text="游戏图像" />
+
+                <RadioButton
+                    android:id="@+id/home_headline_rb5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:button="@null"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="@color/color_headline_head_radiogroup_text"
+                    android:text="软件研发" />
+
+                <RadioButton
+                    android:id="@+id/home_headline_rb6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:button="@null"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="@color/color_headline_head_radiogroup_text"
+                    android:text="云计算" />
+
+                <RadioButton
+                    android:id="@+id/home_headline_rb7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:button="@null"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="@color/color_headline_head_radiogroup_text"
+                    android:text="系统安全" />
+
+                <RadioButton
+                    android:id="@+id/home_headline_rb8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:button="@null"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="@color/color_headline_head_radiogroup_text"
+                    android:text="软件工程" />
+
+                <RadioButton
+                    android:id="@+id/home_headline_rb9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:button="@null"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="@color/color_headline_head_radiogroup_text"
+                    android:text="ioT" />
+
+                <RadioButton
+                    android:id="@+id/home_headline_rb10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:button="@null"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="@color/color_headline_head_radiogroup_text"
+                    android:text="程序人生" />
+
+                <RadioButton
+                    android:id="@+id/home_headline_rb11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:button="@null"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="@color/color_headline_head_radiogroup_text"
+                    android:text="业界" />
+
+                <RadioButton
+                    android:id="@+id/home_headline_rb12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:button="@null"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="@color/color_headline_head_radiogroup_text"
+                    android:text="社区版务" />
+
+                <RadioButton
+                    android:id="@+id/home_headline_rb13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:button="@null"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="@color/color_headline_head_radiogroup_text"
+                    android:text="大数据" />
+
+                <RadioButton
+                    android:id="@+id/home_headline_rb14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:button="@null"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="@color/color_headline_head_radiogroup_text"
+                    android:text="数据库" />
+            </RadioGroup>
+
+          <!--  <ImageView
+                android:id="@+id/headline_imageBar"
+                android:layout_width="100dp"
+                android:layout_height="4dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/red" />-->
+        </RelativeLayout>
+    </HorizontalScrollView>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/home_headline_vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+</LinearLayout>

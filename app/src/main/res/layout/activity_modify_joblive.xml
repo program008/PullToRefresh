@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <View style="@style/public_horizontal_bold_line" />
+
+        <View style="@style/public_gray_horizontal_line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="单位"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/add_joblive_unit_et"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@color/white"
+                android:hint="单位"
+                android:textColorHint="@color/silver"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <View style="@style/public_gray_horizontal_line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="职业"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/add_joblive_job_et"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@color/white"
+                android:hint="职业"
+                android:textColorHint="@color/silver"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <View style="@style/public_gray_horizontal_line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:clickable="true"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="时间"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/add_joblive_time_et"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@color/white"
+                android:hint="2011年12月 -2013年12月"
+                android:textColorHint="@color/silver"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <View style="@style/public_gray_horizontal_line" />
+
+        <TextView
+            style="@style/public_horizontal_xbold_line"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="简历"
+            android:textColor="@color/silver"
+            android:layout_centerVertical="true"
+            android:textSize="14sp" />
+
+        <View style="@style/public_gray_horizontal_line" />
+
+        <EditText
+            android:id="@+id/add_joblive_summary_et"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:gravity="top"
+            android:hint="请填写简述"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:textColorHint="@color/silver"
+            android:layout_centerVertical="true"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</ScrollView>
